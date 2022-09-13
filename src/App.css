@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+.container {
+  background-color: #ededed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-card {
+  min-width: 400px;
+  box-shadow: 0 1px 3px 0 #999;
+  background-color: #f9f9f9;
+  position: relative;
 }
